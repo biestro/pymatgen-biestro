@@ -45,3 +45,4 @@ docs/html/
 docs/doctrees/
 docs/apidoc/*.rst
 docs/.apidoc_merge/
+.pymatgen-core
