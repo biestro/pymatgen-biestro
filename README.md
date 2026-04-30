@@ -5,6 +5,14 @@ VASP sometimes requires INCAR inputs that are either multiline strings or plain 
 The defauly `pymatgen` does not account for this, as it treats the INCAR as key-value pairs. However, tags like `LOCPROJ`
 need the possibility of semicolons and raw-string utilities, and so this fork fixes the `Incar.from_str"
 
+
+## Install
+
+```
+pip install git+https://github.com/biestro/pymatgen-biestro.git --break-system-packages
+pip install git+https://github.com/biestro/pymatgen-core.git --no-deps --force-reinstall --break-system-packages
+```
+
 ## License
 
 Pymatgen is released under the MIT License. The terms of the license are as follows:
